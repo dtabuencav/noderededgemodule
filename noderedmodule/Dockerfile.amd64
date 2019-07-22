@@ -18,6 +18,6 @@ RUN npm install node-red-dashboard
 
 EXPOSE 1880/tcp
 
-USER node
+USER root
 
 CMD ["node-red"]
